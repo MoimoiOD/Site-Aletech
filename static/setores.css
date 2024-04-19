@@ -1,0 +1,13 @@
+/*===========================SETORES===========================*/
+
+.caixaSetores {display: grid; margin: 0% 10%; margin-bottom: 10%; grid-template-columns: 1fr; gap: 13%;}
+
+.caixaIndComercial,
+.caixaIndSuporte,
+.caixaIndMarketing,
+.caixaIndFinanceiro {display: flex; align-items: center; gap: 4%;}
+
+.caixaIndComercial p,
+.caixaIndSuporte p,
+.caixaIndMarketing p,
+.caixaIndFinanceiro p {font-size: 1.25em; line-height: 135%;}

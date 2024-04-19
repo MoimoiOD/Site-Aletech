@@ -1,0 +1,15 @@
+/*===========================SEGMENTOS===========================*/
+
+.pontilhada {margin: 5% 0% 3% 0%;}
+
+.fundoSegmentos {display: flex;}
+
+.colunaSegmento {display: flex; flex-direction: column; flex: 1; align-items: center;}
+
+.colunaSegmento img {width: 15vw;}
+
+.linhaVerticalSegmentos {border: 2px solid white;}
+
+.nomeSegmento {font-size: 1.5rem; margin: 7% 0%;}
+
+.textoSegmento {text-align: center; font-size: 1.25rem; margin: 0% 10%;}

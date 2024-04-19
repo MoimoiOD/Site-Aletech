@@ -1,0 +1,17 @@
+/*===========================PRODUTOS===========================*/
+
+.listaProdutos {display: grid; grid-template-columns: 1fr 1fr; row-gap: 10vh;}
+
+.caixaProduto {display: flex; margin: 0vh 4vh;}
+
+.imagemProduto {display: flex; flex-direction: column; justify-content: center; align-items: center;}
+
+.lider {font-size: 1.5em; color: rgb(255, 136, 0); font-weight: 1000;}
+
+.imagemProduto img {width: 23vw;}
+
+.descricaoProduto {display: flex; flex-direction: column; align-items: center; gap: 5%; padding: 5% 0%;}
+
+.nomeEquipamento {font-size: 3em; font-weight: bold;}
+
+.descricaoProduto p {font-size: 4vh; text-align: center;}

@@ -1,0 +1,113 @@
+/*===========================CONTAINER===========================*/
+
+.sectionOne,
+.segmentos,
+.servicos,
+.marcas,
+.informacoes {width: 100%; float: left; padding: 3% 4%; text-align: center;}
+
+/*===========================Primeira seção do Site===========================*/
+
+.sectionOne {padding: 18% 4% 13%; display: flex; flex-direction: column; align-items: center; 
+    position: relative;}
+
+.h2 {font-size: 4.5em; font-weight: 4000; font-family: Montserrat-Bold; }
+    
+.h1 {font-size: 1.4em; background-color: #0453dcbd; border-radius: 10px; margin-bottom: 10vh; padding: .25%;}
+    
+.scanner {border: 2px solid red; animation: scanner 3.5s linear infinite; width: 30vw;}
+
+.sectionOne img {width: 25vw; height: 15vh;}
+
+.h3 {font-family: Montserrat-Thin; font-size: 1.75em; 
+     margin-top: 15vh;}
+
+.linhaVendaLocacao {border: 2px solid rgb(94, 94, 94); width: 51vw;}
+
+        @keyframes scanner {0%, 100% {transform: translateY(0); bottom: 26.5%;} 
+    50% {transform: translateY(100px); bottom: 3%;}}
+@font-face {font-family: Montserrat-Bold; src: url(../fonts/Montserrat-Bold.ttf);}
+@font-face {font-family: Montserrat-Thin; src: url(../fonts/Montserrat-Thin.ttf);}
+
+/*===========================Segunda seção do Site===========================*/
+
+/*.segmentos {}*/
+
+.identificadorUm {display: flex; align-items: end;}
+
+.identificadorUm .h4 {font-size: 2em; border: 2px solid rgb(0, 163, 163); padding: 1% 4%; margin-left: 4%;
+    border-radius: 40px;}
+
+.linhaUm {border: 1px solid rgba(255, 255, 255, 0.63); width: 100%; height: 0; margin-bottom: 2.5%;
+    margin-left: 4%;}
+
+.conjIcone {display: flex;}
+
+.icone {margin-top: 5%; display: flex; flex-direction: column; align-items: center;}
+
+.icone img {width: 90%;}
+
+.icone p {margin-top: 4%; font-weight: 800; font-size: 1.5em;}
+
+/*===========================Terceira seção do Site===========================*/
+
+/*.servicos {}*/
+
+.identificadorDois {display: flex; align-items: end;}
+
+.linhaDois {border: 1px solid rgba(255, 255, 255, 0.63); width: 100%; margin-bottom: 2.5%; margin-right: 4%;}
+
+.identificadorDois .h4 {font-size: 2em; border: 2px solid rgb(0, 163, 163); padding: 1% 4%; margin-right: 4%;
+    margin-top: 6.5%; border-radius: 40px;}
+
+.conjServicos {display: flex; margin: 5%; gap: 5%;}
+
+.assistencia, .comercial {display: flex; flex-grow: 1; align-items: center; padding: 2%; border-radius: 40px;}
+
+.assistencia img {width: 48.25%; border: 4px solid rgb(0, 60, 255); border-radius: 40px;}
+
+.comercial img {width: 50%; border: 4px solid rgb(0, 60, 255); border-radius: 40px;}
+
+.assistencia p, .comercial p {font-family: Montserrat-Bold; font-size: 1.9em; margin-left: 4%;}
+
+.assistencia:hover, .comercial:hover {background-color: rgb(0, 21, 141); transition: 0.75s;}
+
+/*===========================Quarta seção do Site===========================*/
+
+/*.marcas {}*/
+
+.conjMarcas {display: flex; width: 100%; flex-wrap: wrap; background-color: white; border-radius: 50px; 
+    padding: 0% 1%;}
+
+.conjMarcas img {width: 10vw; padding: 2%;}
+
+/*===========================Quarta seção do Site===========================*/
+
+/*.informacoes {}*/
+
+.apresentacao {display: flex; flex-direction: column; align-items: center; gap: 30vh;}
+
+.apresentacao p {line-height: 140%; color: white; font-size: 2.5em; font-family: Montserrat-Bold;}
+
+.apresentacao img {width: 60%;}
+
+.formulario {color: white; display: flex; flex-direction: column;}
+
+form label, form input {margin: 2% 0%;}
+
+.formulario form label {font-size: 1.75em; padding-left: 2%;}
+
+.formulario form label span {padding: 2%;}
+
+.respostasUm, .respostasDois {width: 90%;height: 10%;border-radius: 100px;font-size: 150%;padding: 0.25% 2%;
+    font-family: Montserrat-Light;font-weight: bolder;}
+
+.respostasDois {width: 12%;height: 10%;border-radius: 100px;font-size: 150%;padding: 0.25% 2%;
+    font-family: Montserrat-Light;font-weight: bolder;}
+
+@font-face {font-family: Montserrat-Light;src: url(../fonts/Montserrat-Light.ttf);}
+
+.submeter {width: 20%;height: 10%;border-radius: 100px;font-weight: bold;font-size: 150%;
+    font-family: Montserrat-Regular;}
+
+.submeter:hover {background-color: #290fac;font-weight: bold;color: white;}

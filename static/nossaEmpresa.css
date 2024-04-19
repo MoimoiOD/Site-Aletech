@@ -1,0 +1,34 @@
+/*===========================NOSSA EMPRESA===========================*/
+
+.fundoQuemSomos {display: flex; padding: 0% 5%; gap: 5%;}
+
+.container, .container2 {position: relative;}
+
+.container::before,
+.container::after, 
+.container2::before,
+.container2::after{content: ''; position: absolute; width: 30%;  height: 25%;  background-image: url('./images/quemSomos/bordaNossaEmpresa.png'); /* imagem do canto superior esquerdo */ background-size: cover; transform: scaleY(-1);}
+
+.container::before {top: 0; left: 0; transform: rotate(-90deg);}
+
+.container::after {top: 0; right: 0; transform: rotate(0deg);}
+
+.container2::before {width: 30%;  height: 50%;  bottom: -15%; left: 0; transform: rotate(180deg);}
+
+.container2::after {width: 30%;  height: 50%;  bottom: -15%; right: 0; transform: rotate(-270deg);}
+
+.textoQuemSomos {font-size: 1.25em; font-family: Montserrat-Light; padding: 9% 10% 0% 10%; text-align: justify;}
+
+.elementosQuemSomos {display: flex; flex-direction: column;}
+
+.elementosQuemSomos img {width: 20em; margin-bottom: 10%; border: 4px solid rgb(0, 60, 255); border-radius: 40px;}
+
+.nossosDiferenciais {display: flex; flex-direction: column; align-items: center;}
+
+.nossosDiferenciais p {font-family: Montserrat-Bold; font-size: 1.75rem; margin-bottom: 5%;}
+
+.nossosDiferenciaisElementos {display: flex; align-items: center; padding: 4%; gap: 6%;}
+
+.nossosDiferenciaisElementos img {width: 30%;}
+
+.nossosDiferenciaisElementos p {font-family: Montserrat-Light;}
